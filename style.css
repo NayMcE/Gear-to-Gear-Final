@@ -1,0 +1,221 @@
+@media only screen and (max-width: 600px){
+	.column {
+		width:100%;
+	}
+    }
+
+
+body {
+    padding:5px;
+    
+}
+
+.wrap-img {
+    width:100%;
+    height:700px;
+    object-fit:fill;
+    opacity: 70%;
+}
+
+.banner-container {
+    width:100%;
+    height:200px;
+    background-color: #fffaee;
+    line-height: 100px;
+    padding:5px;
+    margin:auto;
+    flex-wrap: inherit;
+}
+
+.banner-container-btm {
+  width:100%;
+  height:100px;
+  background-color: 0, 204, 236, 0.1;
+  line-height: 100px;
+  padding:20px;
+  margin:auto;
+  flex-wrap: inherit;
+}
+
+.banner {
+    font-family: "santelia-rough-two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+
+.img-fluid {
+    opacity: 50%;
+}
+
+.Join-us {
+    text-align: center;
+    margin-left: 800px;
+    line-height: 30px;
+    position:absolute;
+    flex-wrap: inherit;
+}
+
+
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .gallery-images {
+    height:250px; 
+    opacity: 70%;
+    max-width: 550px;
+    margin-top: 10px;
+  }
+
+  .testimonials {
+    height:350px;
+    background:rgba(0, 204, 236, 0.1);
+    padding:10px;
+    color:black;
+  }
+
+  .testimonials2 {
+    height:350px;
+    background-color: #fffaee;
+    padding:10px;
+    margin-top: 10px;
+    color:black;
+  }
+
+  .test-img1 {
+    opacity: 70%;
+    width: 50%;
+    height:300px;
+    object-fit: cover;
+    object-position: 3px 15%;
+
+  }
+
+  .test-img2 {
+    opacity: 70%;
+    width: 50%;
+    height:300px;
+    object-fit: cover;
+    object-position: 3px 40%;
+
+  }
+
+  .btn-primary {
+    background-color: white;
+    border-color: #00ccec;
+    color:black;
+    
+  }
+
+  .btn-primary:hover {
+    background-color:#00ccec;
+  }
+
+
+ .img-thumb {
+    margin:5px;
+    margin-left: 5px;
+    padding:0;
+    border:white;
+    border-width: 0;
+ }
+
+ .img-thumb:hover {
+    background-color: grey;
+ }
+
+ .img-thumbnail {
+    height:200px;
+    width: 400px;
+    opacity: 50%;
+    justify-content: space-between;
+ }
+
+ .row {
+    
+    flex-wrap: nowrap;
+    padding: 5px;
+ }
+
+ .column {
+    position: relative;
+    text-align: center;
+    color: white;
+ }
+
+ .centred {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "santelia-rough-two", sans-serif;
+    color:black;
+    font-weight: 800;
+    font-size:x-large;
+ }
+
+ .column1 {
+  width: 40%;
+  padding: 20px;
+  color:black;
+  position:absolute;
+  margin-left: 50%;
+  margin-top: 30px;
+  text-align: center;
+ }
+
+ .column2 {
+  width: 40%;
+  padding: 20px;
+  color:black;
+  position:absolute;
+  margin-left: 10%;
+  margin-top: 30px;
+  text-align: center;
+ }
+
+ .column-img {
+    width: 70%;
+ }
+
+ .column-img1 {
+  width: 70%;
+  position:absolute;
+  margin-left: 60%;
+}
+
+ h1 {
+  font-family: "santelia-rough-two", sans-serif;
+ }
+
+ .faq {
+  background-color: rgba(211, 211, 211, 0.3);
+  height: 200px;
+  text-align: center;
+ }
+
+ h2 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+ }
+
+.question {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  position: relative;
+ }
+
+ #exampleModalLabel {
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .error-txt {
+  color: red;
+  text-align: left;
+  
+ }

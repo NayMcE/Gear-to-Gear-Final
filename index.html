@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Gear to Gear</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/pxx3lac.css" />
+    <link href="/Styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/Pages/index.html" style="color: #00ccec"
+          >Gear to Gear</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/About Us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/Membership.html">Membership</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/Pages/Bike Fit.html"
+                    >Bike Fit</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/Pages/Kit Shop.html"
+                    >Kit Shop</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/Pages/Coaching.html"
+                    >Coaching</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="banner-container">
+      <div class="banner">Join Gear To Gear</div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Sign up Form
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Enter your information here and we will be contact as soon as we
+            can.<br />
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text" id="addon-wrapping">Name</span>
+              <input
+                id="inputName"
+                type="text"
+                class="form-control"
+                placeholder="Enter here..."
+                aria-label="Username"
+                aria-describedby="addon-wrapping"
+                required
+              />
+            </div>
+            <br />
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+            <p id="message"></p>
+          </div>
+          <div class="modal-footer">
+            <<<<<<< HEAD <<<<<<< HEAD
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary" onclick="submit()">
+              Submit
+            </button>
+            =======
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary" onclick="Submit()">
+              Submit
+            </button>
+
+            >>>>>>> parent of 3b922fd (removing the video) =======
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary" onclick="Submit()">
+              Submit
+            </button>
+
+            >>>>>>> parent of 3b922fd (removing the video)
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <img src="/Images/AdobeStock_329227811.jpg" class="img-fluid" alt="cycle" />
+
+    <div class="row">
+      <div class="column">
+        <button class="img-thumb" type="button" onclick="groupCyc()">
+          <img
+            src="/Images/AdobeStock_434233459.jpg"
+            alt="Group Cycle"
+            class="img-thumbnail"
+          />
+          <div class="centred">Group Cycling</div>
+        </button>
+      </div>
+      <div class="column">
+        <button class="button img-thumb" onclick="coach()">
+          <img
+            src="/Images/AdobeStock_419380860.jpg"
+            alt="solo"
+            class="img-thumbnail"
+          />
+          <div class="centred">Coaching</div>
+        </button>
+      </div>
+      <div class="column">
+        <button class="button img-thumb" onclick="mountRide()">
+          <img
+            src="/Images/AdobeStock_826526355.jpg"
+            alt="Mountains"
+            class="img-thumbnail"
+          />
+          <div class="centred">Mountain Rides</div>
+        </button>
+      </div>
+      <div class="column">
+        <button class="button img-thumb" onclick="bikeFit()">
+          <img
+            src="/Images/pexels-runffwpu-5687429.jpg"
+            alt="BikeFit"
+            class="img-thumbnail"
+          />
+          <div class="centred">Bike Fitting</div>
+        </button>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <div class="row">
+        <div class="column1">
+          <p>
+            <b><h1>Testimonials</h1></b><br />
+            "It has been so enjoyable being part of the club and not only
+            getting to experience group rides but have coaching and tips along
+            the way. Very friendly bunch of people. Best decision I made when I
+            joined the club."
+          </p>
+        </div>
+        <div class="column-img">
+          <img
+            class="test-img1"
+            src="/Images/pexels-munbaik-cycling-clothing-3893851-5851037.jpg"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials2">
+      <div class="row">
+        <div class="column-img1">
+          <img class="test-img2" src="/Images/pexels-runffwpu-5687424.jpg" />
+        </div>
+        <div class="column2">
+          <p>
+            <b><h1>Testimonials</h1></b><br />
+
+            "Gear to Gear has given me so much confidence on my bike and riding
+            on the road. I have met so many like minded people and learnt so
+            much about fixing my bike and how to ride with good form. It is such
+            an enjoyable part of my life."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="banner-container-btm">
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button onClick="formLink" class="btn btn-primary" type="button">
+            Sign Up
+          </button>
+        </div>
+      </div>
+
+      <div class="faq">
+        <h2>FAQ's</h2>
+        <ul>
+          <li class="question">
+            <b>How often do club rides happen?</b> Once a week we meet for local
+            rides. Check out the Group Cycling page for updated information.
+          </li>
+          <li class="question">
+            <b>Can I cancel my membership at any time?</b> Yes you can cancel
+            you're membership at any time, it is a rolling monthly membership.
+          </li>
+          <li class="question">
+            <b>Are there any races that I can participate in?</b>Yes, race
+            season is usually over the summer months and we share updated
+            information on races days and categories closer to the time.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/Scripts/JSmyscript.js"></script>
+  </body>
+  <footer class="text-center bg-body-tertiary">
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05)">
+      © 2024 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">GearToGear.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</html>
