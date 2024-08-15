@@ -4,17 +4,17 @@ function submit() {
 };
 
 function groupCyc() {
-  window.open("/Pages/Group Cycling.html")
+  window.open("../Pages/Group Cycling.html")
 }
 
 function coach() {
-  window.open("/Pages/Coaching.html")
+  window.open("../Pages/Coaching.html")
 }
 
 function mountRide() {
-  window.open("/Pages/Mountain Rides.html")
+  window.open("../Pages/Mountain Rides.html")
 }
 
 function bikeFit() {
-  window.open("/Pages/Bike Fit.html")
+  window.open("../Pages/Bike Fit.html")
 }
